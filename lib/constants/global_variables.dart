@@ -15,7 +15,7 @@ class GlobalVariables {
   static const secondaryColor = Color.fromARGB(255, 216, 157, 243);
   static const backgroundColor = Colors.white;
   static const Color greyBackgroundCOlor = Color(0xffebecee);
-  static var selectedNavBarColor = Color.fromARGB(255, 104, 10, 172)!;
+  static var selectedNavBarColor = const Color.fromARGB(255, 104, 10, 172);
   static const unselectedNavBarColor = Colors.black87;
 
   static const List<String> carouselImages = [

@@ -37,7 +37,6 @@ class _ArScreenState extends State<ArScreen> {
       
       body:Stack(
        children: [
-       
           InAppWebView(
             initialUrlRequest: URLRequest(url: Uri.parse("https://karthiks-auth-portal-aicommerce.netlify.app")),
             onWebViewCreated: (InAppWebViewController controller){
@@ -50,8 +49,7 @@ class _ArScreenState extends State<ArScreen> {
               setState(() {
                 _progress = progress / 100;
               });
-            },
-          
+            },         
         ),
         _progress < 1 ? SizedBox(
           height: 3,

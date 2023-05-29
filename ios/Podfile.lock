@@ -46,9 +46,9 @@ PODS:
   - OrderedSet (5.0.0)
   - pay_ios (0.0.1):
     - Flutter
-  - SDWebImage (5.15.5):
-    - SDWebImage/Core (= 5.15.5)
-  - SDWebImage/Core (5.15.5)
+  - SDWebImage (5.15.7):
+    - SDWebImage/Core (= 5.15.7)
+  - SDWebImage/Core (5.15.7)
   - shared_preferences_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
@@ -66,7 +66,7 @@ DEPENDENCIES:
   - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
   - flutter_tts (from `.symlinks/plugins/flutter_tts/ios`)
   - pay_ios (from `.symlinks/plugins/pay_ios/ios`)
-  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
   - speech_to_text (from `.symlinks/plugins/speech_to_text/ios`)
   - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
 
@@ -91,7 +91,7 @@ EXTERNAL SOURCES:
   pay_ios:
     :path: ".symlinks/plugins/pay_ios/ios"
   shared_preferences_foundation:
-    :path: ".symlinks/plugins/shared_preferences_foundation/ios"
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
   speech_to_text:
     :path: ".symlinks/plugins/speech_to_text/ios"
   webview_flutter_wkwebview:
@@ -106,8 +106,8 @@ SPEC CHECKSUMS:
   flutter_tts: 0f492aab6accf87059b72354fcb4ba934304771d
   OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
   pay_ios: 8c7beb9c61d885f3f51b61f75f8793023fc8843a
-  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
-  shared_preferences_foundation: 986fc17f3d3251412d18b0265f9c64113a8c2472
+  SDWebImage: 25bac438318faf37e35650619ebc288a9061d292
+  shared_preferences_foundation: e2dae3258e06f44cc55f49d42024fd8dd03c590c
   speech_to_text: b43a7d99aef037bd758ed8e45d79bbac035d2dfe
   SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
   Try: 5ef669ae832617b3cee58cb2c6f99fb767a4ff96

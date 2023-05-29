@@ -102,7 +102,7 @@ class _BottomBarState extends State<BottomBar> {
               child: badges.Badge(
                 //elevation: 0,
                 badgeContent: Text(userCartLen.toString()),
-                badgeStyle: badges.BadgeStyle(
+                badgeStyle:const badges.BadgeStyle(
                   badgeColor: Colors.white,
                 ),
                 child: const Icon(
